@@ -1,4 +1,122 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Youcs's Blog</title><link>http://youcs233.github.io/</link><description>Youcs's Blog</description><generator>Hugo 0.139.3 &amp; FixIt v0.3.15</generator><language>zh-CN</language><lastBuildDate>Fri, 29 Nov 2024 13:57:24 +0800</lastBuildDate><atom:link href="http://youcs233.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>如何使用 Hugo 搭建个人博客</title><link>http://youcs233.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link><pubDate>Fri, 29 Nov 2024 13:57:24 +0800</pubDate><guid>http://youcs233.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid><category domain="http://youcs233.github.io/categories/%E7%9F%A5%E8%AF%86/">知识</category><description>&lt;h2 id="前言" class="heading-element">&lt;span>前言&lt;/span>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Youcs's Blog</title><link>http://youcs233.github.io/</link><description>Youcs's Blog</description><generator>Hugo 0.139.3 &amp; FixIt v0.3.15</generator><language>zh-CN</language><lastBuildDate>Mon, 02 Dec 2024 13:40:00 +0800</lastBuildDate><atom:link href="http://youcs233.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>如何提问AI</title><link>http://youcs233.github.io/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%97%AE-ai/</link><pubDate>Mon, 02 Dec 2024 13:40:00 +0800</pubDate><guid>http://youcs233.github.io/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%97%AE-ai/</guid><category domain="http://youcs233.github.io/categories/%E7%9F%A5%E8%AF%86/">知识</category><description>&lt;h2 id="前言" class="heading-element">&lt;span>前言&lt;/span>
+ &lt;a href="#%e5%89%8d%e8%a8%80" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>如今，AI 已成为许多人日常工作的一部分。尽管如此，大部分人仅停留在简单的提问上，未能充分发挥 AI 的潜力。本文将教你如何高效地利用 AI 来辅助答题、进行实训、写教案等任务。&lt;/p>
+&lt;h2 id="提示词prompt" class="heading-element">&lt;span>提示词（Prompt）&lt;/span>
+ &lt;a href="#%e6%8f%90%e7%a4%ba%e8%af%8dprompt" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>高效提问的核心是提示词。一个好的提示词通常包含四个要素：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>角色&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>能力&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>任务&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>输出案例&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="1-角色" class="heading-element">&lt;span>1. 角色&lt;/span>
+ &lt;a href="#1-%e8%a7%92%e8%89%b2" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>首先，明确告知 AI 它扮演的角色，这有助于 AI 确定其行为和答复风格。例如：&lt;/p>
+&lt;blockquote>
+&lt;p>你现在是一个计算机专业的博士，并且在一所一流高校中担任教学任务，作为一位德高望重的教授，专注于计算机软件研究和开发。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="2-能力" class="heading-element">&lt;span>2. 能力&lt;/span>
+ &lt;a href="#2-%e8%83%bd%e5%8a%9b" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>然后，列出 AI 所具备的能力或专业知识，以帮助其理解知识范围并提供更精准的服务。例如：&lt;/p>
+&lt;ol>
+&lt;li>精通指令集架构&lt;/li>
+&lt;li>擅长中间件技术的开发和研究&lt;/li>
+&lt;li>熟悉操作系统（包括 Linux 和 Windows 等）&lt;/li>
+&lt;li>精通云安全技术和虚拟化技术&lt;/li>
+&lt;li>深入了解网络安全领域的高端技术&lt;/li>
+&lt;/ol>
+&lt;h3 id="3-任务" class="heading-element">&lt;span>3. 任务&lt;/span>
+ &lt;a href="#3-%e4%bb%bb%e5%8a%a1" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>接下来，明确告知 AI 需要完成的任务或解决的问题。例如：&lt;/p>
+&lt;blockquote>
+&lt;p>请为我完成一套关于信创相关的赛题。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="4-输出案例" class="heading-element">&lt;span>4. 输出案例&lt;/span>
+ &lt;a href="#4-%e8%be%93%e5%87%ba%e6%a1%88%e4%be%8b" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>最后，提供一个输入和对应的输出示例，以便 AI 理解你期望的答复格式和风格。&lt;/p>
+&lt;h4 id="输入" class="heading-element">&lt;span>输入&lt;/span>
+ &lt;a href="#%e8%be%93%e5%85%a5" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h4>&lt;p>缓存中间件用到了哪种持久化技术？（ ）（1.0 分）&lt;br>
+A、RDB&lt;br>
+B、AOF&lt;br>
+C、文件存储&lt;br>
+D、其他选项都是&lt;/p>
+&lt;h4 id="输出" class="heading-element">&lt;span>输出&lt;/span>
+ &lt;a href="#%e8%be%93%e5%87%ba" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h4>&lt;p>D&lt;/p>
+&lt;p>通过上述四个要素的组合，你可以高效地与 AI 进行交互，获得精准的答复。不断调整角色、能力、任务和输出案例，将有助于你更好地利用 AI 的强大功能。&lt;/p>
+&lt;h2 id="发送给-ai-内容" class="heading-element">&lt;span>发送给 AI 内容&lt;/span>
+ &lt;a href="#%e5%8f%91%e9%80%81%e7%bb%99-ai-%e5%86%85%e5%ae%b9" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;blockquote>
+&lt;p>推荐使用国外的 ChatGPT&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## 角色
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>你现在是一个计算机专业的博士，并且在一个一流高校中担任教学任务，是一个德高望重的教授，从事与计算机软件研究和开发。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## 能力
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>1.掌握指令集架构
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2.熟练中间件技术的开发和研究
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3.掌握操作系统包括linux和windows等
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">4.掌握云安全技术和虚拟化技术
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">5.掌握一切关于网络安全相关的高端技术
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## 任务
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>完成一套关于信创相关的赛题
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## 输出案例
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### 输入
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>缓存中间件用到了哪种持久化的技术（ ）（1.0 分）
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">A、RDB
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">B、AOF
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">C、文件存储
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">D、其他选项都是
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### 输出:
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>D&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="chatgpt" class="heading-element">&lt;span>ChatGPT&lt;/span>
+ &lt;a href="#chatgpt" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;p>&lt;img loading="lazy" src="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png" alt="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png" srcset="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png?size=small, https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png?size=medium 1.5x, https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png?size=large 2x" data-title="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/p></description></item><item><title>如何使用 Hugo 搭建个人博客</title><link>http://youcs233.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link><pubDate>Fri, 29 Nov 2024 13:57:24 +0800</pubDate><guid>http://youcs233.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid><category domain="http://youcs233.github.io/categories/%E7%9F%A5%E8%AF%86/">知识</category><description>&lt;h2 id="前言" class="heading-element">&lt;span>前言&lt;/span>
  &lt;a href="#%e5%89%8d%e8%a8%80" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
