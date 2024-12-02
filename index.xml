@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Youcs's Blog</title><link>http://youcs233.github.io/</link><description>Youcs's Blog</description><generator>Hugo 0.139.3 &amp; FixIt v0.3.15</generator><language>zh-CN</language><lastBuildDate>Mon, 02 Dec 2024 13:40:00 +0800</lastBuildDate><atom:link href="http://youcs233.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>如何提问AI</title><link>http://youcs233.github.io/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%97%AE-ai/</link><pubDate>Mon, 02 Dec 2024 13:40:00 +0800</pubDate><guid>http://youcs233.github.io/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%97%AE-ai/</guid><category domain="http://youcs233.github.io/categories/%E7%9F%A5%E8%AF%86/">知识</category><description>&lt;h2 id="前言" class="heading-element">&lt;span>前言&lt;/span>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Youcs's Blog</title><link>http://youcs233.github.io/</link><description>Youcs's Blog</description><generator>Hugo 0.139.3 &amp; FixIt v0.3.15</generator><language>zh-CN</language><lastBuildDate>Mon, 02 Dec 2024 13:40:00 +0800</lastBuildDate><atom:link href="http://youcs233.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>如何提问AI</title><link>http://youcs233.github.io/posts/question-ai/</link><pubDate>Mon, 02 Dec 2024 13:40:00 +0800</pubDate><guid>http://youcs233.github.io/posts/question-ai/</guid><category domain="http://youcs233.github.io/categories/%E7%9F%A5%E8%AF%86/">知识</category><description>&lt;h2 id="前言" class="heading-element">&lt;span>前言&lt;/span>
  &lt;a href="#%e5%89%8d%e8%a8%80" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
@@ -9,21 +9,21 @@
  &lt;/a>
 &lt;/h2>&lt;p>高效提问的核心是提示词。一个好的提示词通常包含四个要素：&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>角色&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>能力&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>任务&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>输出案例&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>角色(role)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>能力(ability)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>任务(mission)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>输出案例(output)&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;h3 id="1-角色" class="heading-element">&lt;span>1. 角色&lt;/span>
- &lt;a href="#1-%e8%a7%92%e8%89%b2" class="heading-mark">
+&lt;h3 id="1-角色role" class="heading-element">&lt;span>1. 角色(role)&lt;/span>
+ &lt;a href="#1-%e8%a7%92%e8%89%b2role" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
 &lt;/h3>&lt;p>首先，明确告知 AI 它扮演的角色，这有助于 AI 确定其行为和答复风格。例如：&lt;/p>
 &lt;blockquote>
 &lt;p>你现在是一个计算机专业的博士，并且在一所一流高校中担任教学任务，作为一位德高望重的教授，专注于计算机软件研究和开发。&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="2-能力" class="heading-element">&lt;span>2. 能力&lt;/span>
- &lt;a href="#2-%e8%83%bd%e5%8a%9b" class="heading-mark">
+&lt;h3 id="2-能力ability" class="heading-element">&lt;span>2. 能力(ability)&lt;/span>
+ &lt;a href="#2-%e8%83%bd%e5%8a%9bability" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
 &lt;/h3>&lt;p>然后，列出 AI 所具备的能力或专业知识，以帮助其理解知识范围并提供更精准的服务。例如：&lt;/p>
@@ -34,16 +34,16 @@
 &lt;li>精通云安全技术和虚拟化技术&lt;/li>
 &lt;li>深入了解网络安全领域的高端技术&lt;/li>
 &lt;/ol>
-&lt;h3 id="3-任务" class="heading-element">&lt;span>3. 任务&lt;/span>
- &lt;a href="#3-%e4%bb%bb%e5%8a%a1" class="heading-mark">
+&lt;h3 id="3-任务mission" class="heading-element">&lt;span>3. 任务(mission)&lt;/span>
+ &lt;a href="#3-%e4%bb%bb%e5%8a%a1mission" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
 &lt;/h3>&lt;p>接下来，明确告知 AI 需要完成的任务或解决的问题。例如：&lt;/p>
 &lt;blockquote>
 &lt;p>请为我完成一套关于信创相关的赛题。&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="4-输出案例" class="heading-element">&lt;span>4. 输出案例&lt;/span>
- &lt;a href="#4-%e8%be%93%e5%87%ba%e6%a1%88%e4%be%8b" class="heading-mark">
+&lt;h3 id="4-输出案例output" class="heading-element">&lt;span>4. 输出案例(output)&lt;/span>
+ &lt;a href="#4-%e8%be%93%e5%87%ba%e6%a1%88%e4%be%8boutput" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
 &lt;/h3>&lt;p>最后，提供一个输入和对应的输出示例，以便 AI 理解你期望的答复格式和风格。&lt;/p>
@@ -116,7 +116,7 @@ D、其他选项都是&lt;/p>
  &lt;a href="#chatgpt" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
-&lt;/h3>&lt;p>&lt;img loading="lazy" src="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png" alt="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png" srcset="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png?size=small, https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png?size=medium 1.5x, https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png?size=large 2x" data-title="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/p></description></item><item><title>如何使用 Hugo 搭建个人博客</title><link>http://youcs233.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link><pubDate>Fri, 29 Nov 2024 13:57:24 +0800</pubDate><guid>http://youcs233.github.io/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid><category domain="http://youcs233.github.io/categories/%E7%9F%A5%E8%AF%86/">知识</category><description>&lt;h2 id="前言" class="heading-element">&lt;span>前言&lt;/span>
+&lt;/h3>&lt;p>&lt;img loading="lazy" src="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png" alt="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png" srcset="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png?size=small, https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png?size=medium 1.5x, https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png?size=large 2x" data-title="https://img.ctfer.fun/gh/youcs233/blog-img/cdnimg/ai.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/p></description></item><item><title>Hugo+Fixlt 搭建个人博客（一）</title><link>http://youcs233.github.io/posts/person-hugo-1/</link><pubDate>Fri, 29 Nov 2024 13:57:24 +0800</pubDate><guid>http://youcs233.github.io/posts/person-hugo-1/</guid><category domain="http://youcs233.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</category><description>&lt;h2 id="前言" class="heading-element">&lt;span>前言&lt;/span>
  &lt;a href="#%e5%89%8d%e8%a8%80" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
